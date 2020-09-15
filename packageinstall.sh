@@ -1,5 +1,7 @@
 #!/bin/bash
 
-yum install samba docker ansible -y
+yum install httpd -y
+yum install docker -y
+yum install ansible -y
 
 exit 0
